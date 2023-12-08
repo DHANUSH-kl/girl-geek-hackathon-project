@@ -1,0 +1,53 @@
+@font-face {
+    font-family:Nunito ;
+    src: url(./fonts/Nunito-Medium.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E7FFFC;
+}
+
+.main h1{
+    font-family: Roboto;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #197772;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    background-color: #197772;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    font-size: Roboto;
+    font-weight: 700;
+    cursor: pointer;
+}
+.hero-content {
+    padding: 0 2rem;
+}
+
+h3 {
+    font-family: Roboto;
+}
